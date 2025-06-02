@@ -1,14 +1,14 @@
-﻿Console.Clear();
+﻿
 
 int largura, altura;
 
 Console.WriteLine("Tamanho do retângulo: ");
 
 Console.Write("Largura..: ");
-largura = int.Parse(Console.ReadLine());
+largura = int.Parse(Console.ReadLine()!);
 
 Console.Write("Altura...: ");
-altura = int.Parse(Console.ReadLine());
+altura = int.Parse(Console.ReadLine()!);
 
 if (largura < 1 || largura > 10 || altura < 1 || altura > 10)
 {
