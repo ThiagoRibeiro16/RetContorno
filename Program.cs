@@ -1,4 +1,4 @@
-﻿
+﻿Console.Clear();
 
 int largura, altura;
 
